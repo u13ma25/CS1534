@@ -1,0 +1,16 @@
+.banner {
+    border: solid;
+    border-color: pink;
+    margin: 5px;
+    padding:10px;
+    text-align: center;
+}
+
+.container { display: flex;
+    justify-content: space-between;
+}
+.left { flex: 1; padding: 20px;
+    position:left; float:left;
+}
+.right { flex: 1; margin: 5px; padding: 20px;
+    position:right; float:right;}
