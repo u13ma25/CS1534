@@ -1,16 +1,28 @@
 .banner {
+    color: maroon;
+    background-color: burlywood;
     border: solid;
-    border-color: pink;
+    border-color: rgb(101, 13, 7);
     margin: 5px;
     padding:10px;
     text-align: center;
 }
 
-.container { display: flex;
+.container {
+    display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
-.left { flex: 1; padding: 20px;
-    position:left; float:left;
+
+.map {order:2;}
+
+.left {
+    padding: 20px;
+    float:left;
 }
-.right { flex: 1; margin: 5px; padding: 20px;
-    position:right; float:right;}
+
+.right {
+    margin: 5px; 
+    padding: 20px; 
+    float:right;
+}
