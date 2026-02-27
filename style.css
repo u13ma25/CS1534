@@ -14,7 +14,21 @@
     align-items: flex-start;
 }
 
-.map {order:2;}
+a:link {
+  color: rgb(234, 157, 2);
+  background-color: transparent;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+}
+
+h2 {
+    background-color:burlywood;
+    color: maroon;
+    padding-left: 10px;
+}
 
 .left {
     padding: 20px;
@@ -25,4 +39,9 @@
     margin: 5px; 
     padding: 20px; 
     float:right;
+}
+
+body {
+    background-color: rgb(50, 29, 29);
+    color: rgb(231, 185, 3)
 }
